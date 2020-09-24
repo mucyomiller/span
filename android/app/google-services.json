@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577669068811",
+    "firebase_url": "https://span-4a63f.firebaseio.com",
+    "project_id": "span-4a63f",
+    "storage_bucket": "span-4a63f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577669068811:android:568b3d32c4dd3622e92f0e",
+        "android_client_info": {
+          "package_name": "com.mucyofred.span"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577669068811-q4ru75fbno4ar5ni70neklro7hnnd5br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPCHZ6tImpc1_UZtve8HByL2aty4FxUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577669068811-q4ru75fbno4ar5ni70neklro7hnnd5br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
