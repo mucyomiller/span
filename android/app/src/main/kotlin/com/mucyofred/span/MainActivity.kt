@@ -1,4 +1,4 @@
-package com.example.span
+package com.mucyofred.span
 
 import io.flutter.embedding.android.FlutterActivity
 
