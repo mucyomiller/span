@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:span/src/ui/slider_page_view.dart';
+import 'package:span/src/screens/slider_page_view.dart';
 
 class Onboarding extends StatefulWidget {
   final SharedPreferences prefs;
@@ -16,7 +16,7 @@ class _OnboardingState extends State<Onboarding> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(
-        child: SliderPageView(),
+        child: SliderPageView(prefs : widget.prefs),
       ),
     );
   }
