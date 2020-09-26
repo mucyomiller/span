@@ -12,11 +12,6 @@ class WavyHeader extends StatelessWidget {
         height: _dsize * 0.70,
         alignment: Alignment.topCenter,
         color: Theme.of(context).primaryColor,
-        child: Text(
-          'Profile',
-          style: TextStyle(
-              color: Colors.white, fontWeight: FontWeight.bold, fontSize: 25),
-        ),
       ),
       clipper: BottomWaveClipper(),
     );
