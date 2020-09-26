@@ -29,7 +29,7 @@ class _MainScreenState extends State<MainScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(
-              IconData(0xe905, fontFamily: 'span'),
+              const IconData(0xe905, fontFamily: 'span'),
               color: _selectedIndex == 0
                   ? Theme.of(context).primaryColor
                   : Colors.black,
@@ -38,7 +38,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              IconData(0xe902, fontFamily: 'span'),
+              const IconData(0xe902, fontFamily: 'span'),
               color: _selectedIndex == 1
                   ? Theme.of(context).primaryColor
                   : Colors.black,
@@ -47,7 +47,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              IconData(0xe900, fontFamily: 'span'),
+              const IconData(0xe900, fontFamily: 'span'),
               color: _selectedIndex == 2
                   ? Theme.of(context).primaryColor
                   : Colors.black,
@@ -56,7 +56,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              IconData(0xe901, fontFamily: 'span'),
+              const IconData(0xe901, fontFamily: 'span'),
               color: _selectedIndex == 3
                   ? Theme.of(context).primaryColor
                   : Colors.black,
@@ -65,7 +65,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              IconData(0xe903, fontFamily: 'span'),
+              const IconData(0xe903, fontFamily: 'span'),
               color: _selectedIndex == 4
                   ? Theme.of(context).primaryColor
                   : Colors.black,

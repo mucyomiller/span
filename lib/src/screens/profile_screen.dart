@@ -11,69 +11,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     var _dsize = MediaQuery.of(context).size.shortestSide;
-    var items = List<Widget>.generate(
-        5,
-        (int index) => Column(
-              children: <Widget>[
-                Row(
-                  children: <Widget>[
-                    CircleAvatar(
-                        maxRadius: 25,
-                        backgroundImage: NetworkImage(
-                            'https://avatars0.githubusercontent.com/u/11447549?s=460&v=4'),
-                        backgroundColor: Colors.transparent),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Text('Text view'),
-                        Text('@niyobobo • 49s'),
-                      ],
-                    )
-                  ],
-                ),
-                Text(
-                    'Name Surname Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.'),
-                Row(
-                  children: <Widget>[
-                    Expanded(
-                      child: Padding(
-                        padding: const EdgeInsets.only(right: 5),
-                        child: LinearProgressIndicator(
-                          backgroundColor: Colors.red,
-                          value: 0.2,
-                        ),
-                      ),
-                    ),
-                    Row(
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        Icon(
-                          IconData(0xe90a, fontFamily: 'hahiye'),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            '90',
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.bold),
-                          ),
-                        ),
-                        Icon(IconData(0xe90b, fontFamily: 'hahiye')),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            '78',
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.bold),
-                          ),
-                        ),
-                      ],
-                    )
-                  ],
-                )
-              ],
-            ));
     return Scaffold(
       body: Container(
         child: Column(
@@ -134,7 +71,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 width: 2,
                               ),
                               Icon(
-                                IconData(0xe904, fontFamily: 'span'),
+                                const IconData(0xe904, fontFamily: 'span'),
                                 color: Theme.of(context).primaryColor,
                               )
                             ]),

@@ -54,7 +54,7 @@ class MoneyScreen extends HookWidget {
                     elevation: 5,
                     onPressed: () {},
                     icon: Icon(
-                      IconData(0xe902, fontFamily: 'span'),
+                      const IconData(0xe902, fontFamily: 'span'),
                       color: Colors.white,
                     ),
                     label: Text(
@@ -70,7 +70,7 @@ class MoneyScreen extends HookWidget {
                     elevation: 5,
                     onPressed: () {},
                     icon: Icon(
-                      IconData(0xe902, fontFamily: 'span'),
+                      const IconData(0xe902, fontFamily: 'span'),
                     ),
                     label: Text('Cash out'),
                     shape: RoundedRectangleBorder(
