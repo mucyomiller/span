@@ -71,7 +71,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 width: 2,
                               ),
                               Icon(
-                                IconData(0xe904, fontFamily: 'span'),
+                                const IconData(0xe904, fontFamily: 'span'),
                                 color: Theme.of(context).primaryColor,
                               )
                             ]),
