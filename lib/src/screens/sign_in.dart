@@ -108,7 +108,14 @@ class _SignInState extends State<SignIn> {
                                   fontSize: SizeConfig.safeBlockHorizontal * 4,
                                   color: Colors.white),
                             ),
-                            onPressed: () => {},
+                            onPressed: () {
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => MainScreen(),
+                                ),
+                              );
+                            },
                           ),
                         ),
                       ),

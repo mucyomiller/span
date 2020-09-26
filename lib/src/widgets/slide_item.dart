@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:span/src/models/slider.dart';
 
-class SlideItem extends StatelessWidget {
+class SlideItem extends HookWidget {
   final int index;
   SlideItem(this.index);
 
